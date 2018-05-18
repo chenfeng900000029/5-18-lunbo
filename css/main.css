@@ -1,0 +1,42 @@
+.show-img-box{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box ;}
+
+.show-img{
+	display: flex;
+	align-items: flex-start;
+	transition:all 0.5s;
+			
+}
+.buts{  width: 140px;
+		height: 30px;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+			}
+.buts>span{
+			z-index: 9;
+			margin-top: -40px;
+			width: 16px;
+			height: 16px;
+			border-radius: 50%;
+			background: #fff;
+			opacity: 0.6;
+			box-shadow: 0 1px 1px #333;
+			}
+.buts>.spanActive{
+			z-index: 9;
+			margin-top: -40px;
+			width: 16px;
+			height: 16px;
+			border-radius: 50%;
+			background-color:coral;
+			opacity: 0.8;
+			box-shadow: 0 1px 1px #333;
+			}					
+		
